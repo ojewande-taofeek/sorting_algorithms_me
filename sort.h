@@ -25,6 +25,4 @@ void print_list(const listint_t *list);
 void bubble_sort(int *array, size_t size);
 void swap(int *first, int *second);
 void insertion_sort_list(listint_t **list);
-listint_t *create_listint(const int *array, size_t size);
-listint_t *swap_list(listint_t **pred, listint_t **current)
 #endif /* SORT_H */
